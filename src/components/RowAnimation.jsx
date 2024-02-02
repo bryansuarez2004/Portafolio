@@ -52,6 +52,10 @@ const RowAnimation = ({top1,top2}) => {
        <div className='rigth rigthD'></div>
        <div className='left leftD'></div>
     </div>
+    <div className='conteiner thirteen conteinerD'>
+       <div className='rigth rigthD'></div>
+       <div className='left leftD'></div>
+    </div>
     </div>
     <div className={`flex  *:shrink-0 *:left-[-60px] ${top2}  overflow-x-hidden relative w-full `}>
     <div className='conteiner oneT conteinerD'>
@@ -99,6 +103,14 @@ const RowAnimation = ({top1,top2}) => {
        <div className='left leftD'></div>
     </div>
     <div className='conteiner twelveT conteinerD'>
+       <div className='rigth rigthD'></div>
+       <div className='left leftD'></div>
+    </div>
+    <div className='conteiner thirteenT conteinerD'>
+       <div className='rigth rigthD'></div>
+       <div className='left leftD'></div>
+    </div>
+    <div className='conteiner fourteenT conteinerD'>
        <div className='rigth rigthD'></div>
        <div className='left leftD'></div>
     </div>

@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <Navbar />
+    <Navbar setFormOpen={setFormOpen}/>
     <Header setFormOpen={setFormOpen} />
     <AboutMe />
     <Abilities />

@@ -173,6 +173,9 @@ html {
 .twelve{
   animation-delay: 1.20s;
 }
+.thirteen{
+  animation-delay: 1.30s;
+}
 /* DELAY DE LA SEGUNDA FILA */
 
 .oneT{
@@ -217,8 +220,12 @@ html {
 .twelveT{
   animation-delay: 5.10s;
 }
-
-
+.thirteenT{
+   animation-delay: 5.20s;
+}
+.fourteenT{
+  animation-delay: 5.30s;
+}
 
 
 .modeModal{
@@ -431,4 +438,39 @@ transition: all .5s;
   opacity: 1;
   display: flex;
   transition: all .5s;
+}
+
+.popUp{
+   animation-name: popUp;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   border: 2px solid white;
+   color: white;
+   background-color: black;
+}
+.popUp:hover{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  
+}
+.dark .popUp{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+.dark .popUp:hover{
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+
+
+@keyframes popUp {
+  0%{
+   transform: scale(.8);
+  }
+  50%{
+    transform: scale(1.2);
+  }
 }

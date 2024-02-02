@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import PopUp from "./PopUp";
 import { IoMenu } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({setFormOpen}) => {
   const [modeModalNav, setmodeModalNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const handleModal = () => {
@@ -70,7 +70,7 @@ const Navbar = () => {
         
       </div>
 
-      <PopUp scrolled={scrolled}/>
+      <PopUp setFormOpen={setFormOpen} scrolled={scrolled}/>
     </>
   );
 };

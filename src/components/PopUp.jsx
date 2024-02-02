@@ -1,10 +1,17 @@
 import React from 'react'
+import { CgMail } from "react-icons/cg";
 
-const PopUp = ({scrolled}) => {
+const PopUp = ({scrolled,setFormOpen}) => {
+  const openForm = ()=>{
+    setFormOpen((state)=>!state)
+  }
+
+
   return (
     <>
-         <button className={`${scrolled ? 'opacity-100 visible ' : 'opacity-0 invisible '} w-[160px] h-[160px] bg-green-500  fixed z-10 right-2 bottom-2 rounded-full text-center transition-all duration-700 dark:bg-orange-700 `} >
-             POP UP
+         <button onClick={openForm} className={`${scrolled ? 'opacity-100 visible popUp  ' : 'opacity-0 invisible '} w-[150px] h-[150px]   fixed z-10 right-2 bottom-2 rounded-full text-center transition-all duration-700  flex items-center justify-center flex-col `} >
+         <CgMail className='text-6xl' />
+             Contactame
          </button>
     </> 
   )
