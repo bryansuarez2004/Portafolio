@@ -444,26 +444,9 @@ transition: all .5s;
    animation-name: popUp;
    animation-duration: 3s;
    animation-iteration-count: infinite;
-   border: 2px solid white;
-   color: white;
-   background-color: black;
 }
-.popUp:hover{
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-  
-}
-.dark .popUp{
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-}
-.dark .popUp:hover{
-  background-color: black;
-  border: 2px solid white;
-  color: white;
-}
+
+
 
 
 @keyframes popUp {

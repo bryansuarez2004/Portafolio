@@ -15,7 +15,10 @@ const Title = ({setFormOpen}) => {
         <a href="/CurriculumVitae.pdf" download={'bryanCurriculum.pdf'} target='_blank'>
         <Button texto={'descargar cv'} />
         </a>
-        <Button texto={'contactame'} handle={showForm} />
+        
+
+        <Button texto={'contáctame'} handle={showForm} />
+       
       </div>
     </div>
   )

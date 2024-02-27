@@ -23,7 +23,7 @@ const Contac = ({setFormOpen}) => {
          <FaWhatsapp className='text-4xl' />
          Whatsapp
          </a>
-         <a href='https://www.linkedin.com/in/bryan-suarez-980135266/' target='_blank' className='block button'>
+         <a href='https://www.linkedin.com/in/bryan-alejandro-suarez-fernandez-980135266/' target='_blank' className='block button'>
          <FaLinkedin className='text-4xl' />
          Linkedin
          </a>

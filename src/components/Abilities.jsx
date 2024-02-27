@@ -10,7 +10,7 @@ const Abilities = () => {
            <CardUi text={'Tengo la disposición para aprender nuevas tecnologías y mejorar mis habilidades existentes.'} title={'Aprendizaje Continuo'}/>
            <CardUi text={'Tengo la capacidad para colaborar en equipo y compartir conocimientos.'} title={'Trabajo en equipo'}/>
            <CardUi text={'Abordo los proyectos con fervor y compromiso, con el objetivo de superar expectativas.'} title={'Compromiso'}/>
-           <CardUi text={'Tengo la capacidad de comunicarme efectivamente y transmitir mis ideas de forma clara'} title={'Comunización efectiva'}/>
+           <CardUi text={'Tengo la capacidad de comunicarme efectivamente y transmitir mis ideas de forma clara'} title={'Comunicación efectiva'}/>
         </div>
 
 
