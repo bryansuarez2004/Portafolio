@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import Form from './components/Form'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
-import Proyects from './components/Proyects'
 import Technologies from './components/Technologies'
 import FormMain from './components/FormMain'
 import Slider from './components/Slider'
@@ -26,7 +25,7 @@ function App() {
     <Slider/>
     <Technologies />
     <Abilities />
-    <Proyects />
+    
     <Contac setFormOpen={setFormOpen}/>
     <FormMain/>
     <Form formOpen={formOpen} setFormOpen={setFormOpen}/>
