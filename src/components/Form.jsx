@@ -42,7 +42,7 @@ const Form = ({formOpen,setFormOpen}) => {
 
   return (
     <div className={`fixed w-screen h-screen top-0 left-0 z-[1000] flex justify-center items-center form transition-all duration-500 ${formT} `}>
-        <form onSubmit={onSubmit} className=' p-5 flex flex-col gap-2 h-[80%] w-[80%] sm:w-[50%] pt-12 rounded-2xl  border-2 border-black formMain relative '>
+        <form onSubmit={onSubmit} className='  p-5 flex flex-col gap-2 h-[80%] w-[80%] sm:w-[50%] pt-12 rounded-2xl  border-2 border-black formMain relative '>
             <h2 className='text-center text-xl uppercase font-bold dark:text-white'>Enviame un correo:</h2>
             <IoIosCloseCircle onClick={handleClose} className='absolute top-3 right-3 text-4xl hover:text-white transition duration-500 dark:text-white cursor-pointer dark:hover:text-purple-800' />
             <label htmlFor="nombre" className='text-xl dark:text-white'>Nombre:</label>

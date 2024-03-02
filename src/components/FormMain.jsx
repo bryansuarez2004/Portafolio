@@ -27,7 +27,7 @@ const FormMain = () => {
 
   return (
    <div className='p-5 flex items-center justify-center'>
-     <form onSubmit={onSubmit} className=' p-5 flex flex-col gap-2 h-[450px] w-[80%] sm:w-[50%] pt-12 rounded-2xl  border-2 border-black formMain relative '>
+     <form onSubmit={onSubmit} className=' p-5 flex flex-col gap-2 h-[450px] w-[80%] sm:w-[50%] pt-12 rounded-2xl  border-2 border-black dark:border-white formMain relative '>
             <h2 className='text-center text-xl uppercase font-bold dark:text-white'>Enviame un correo:</h2>
             
             <label htmlFor="nombre" className='text-xl dark:text-white'>Nombre:</label>
