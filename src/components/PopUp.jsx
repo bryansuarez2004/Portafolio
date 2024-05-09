@@ -12,7 +12,7 @@ const PopUp = ({scrolled,setFormOpen}) => {
 
   return (
     <>
-         <div className={`${scrolled ? 'opacity-100 visible   ' : 'opacity-0 invisible '}    fixed z-10 right-[25px] top-[20vh] rounded-full transition-all duration-700`}>
+         <div className={`${scrolled ? 'opacity-100 visible   ' : 'opacity-0 invisible '}    fixed z-40 right-[25px] top-[20vh] rounded-full transition-all duration-700`}>
         <div className=' grid columns-1 gap-3'>
           <a href='https://walink.co/0057de' target='_blank' className='block button'>
          <FaWhatsapp className='text-2xl' />

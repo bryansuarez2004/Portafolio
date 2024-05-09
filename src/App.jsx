@@ -23,10 +23,10 @@ function App() {
     <Header setFormOpen={setFormOpen} />
     <AboutMe />
     <Slider/>
+    <Contac setFormOpen={setFormOpen}/>
     <Technologies />
     <Abilities />
     
-    <Contac setFormOpen={setFormOpen}/>
     <FormMain/>
     <Form formOpen={formOpen} setFormOpen={setFormOpen}/>
     <Footer />

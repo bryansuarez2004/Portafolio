@@ -9,7 +9,7 @@ const {img,title,description,linkProyec} = proyecto
             <img src={img} className="object-center object-cover w-full h-full hover:scale-125  transition-all duration-500 " alt="" />
           </div>
           <h2>{title}</h2>
-          <p>{description}</p>
+          <p className='text-sm'>{description}</p>
           <a href={linkProyec} target='_blank' className="button">ver proyecto</a>
         </section>
   )

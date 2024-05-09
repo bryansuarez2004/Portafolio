@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className='sm:col-start-1 sm:row-start-1'>
             <h2 className='text-xl'>BRYAN SUAREZ</h2>
-            <p>Desarrollador Front-end dedicado a aprender y aplicar tecnologías modernas para resolver problemas complejos.</p>
+            <p>Desarrollador Web Fullstack especializado en front end dedicado a aprender y aplicar tecnologías modernas para resolver problemas complejos.</p>
         </div>
     </section>
   )

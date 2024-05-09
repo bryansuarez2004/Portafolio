@@ -6,7 +6,7 @@ const AboutMe = () => {
  
       <div className='grid gap-6  p-4 rounded-3xl min-h-[250px] max-w-[600px] text-center card mb-6 '>
       <h2 className='text-black dark:text-white text-5xl font-semibold'>SOBRE MI</h2>
-       <p className='text-black dark:text-white '>Soy un desarrollador front end apasionado por el trabajo en equipo y comprometido con el aprendizaje constante.
+       <p className='text-black dark:text-white '>Soy un desarrollador web fullstack especializado en front end, apasionado por el trabajo en equipo y comprometido con el aprendizaje constante.
 Mi autonomía y capacidad de aprendizaje rápido me permite dominar rápidamente nuevas tecnologías, por lo que no me resulta difícil migrar de tecnologías o aprender nuevas si se necesita, además, como profesional me impulso a mantenerme actualizado en mi campo y buscar oportunidades para crecer.</p>
       </div>
     </div>
