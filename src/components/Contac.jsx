@@ -19,7 +19,7 @@ const Contac = ({setFormOpen}) => {
          <CgMail className='text-4xl'/>
           correo
          </button>
-         <a href='https://walink.co/0057de' target='_blank' className='block button'>
+         <a href='https://api.whatsapp.com/send?phone=51967311785&text=Hola%2C%20quisiera%20contactarme%20contigo...' target='_blank' className='block button'>
          <FaWhatsapp className='text-4xl' />
          Whatsapp
          </a>
