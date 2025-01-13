@@ -14,7 +14,7 @@ const PopUp = ({scrolled,setFormOpen}) => {
     <>
          <div className={`${scrolled ? 'opacity-100 visible   ' : 'opacity-0 invisible '}    fixed z-40 right-[25px] top-[20vh] rounded-full transition-all duration-700`}>
         <div className=' grid columns-1 gap-3'>
-          <a href='https://walink.co/0057de' target='_blank' className='block button'>
+          <a href='https://api.whatsapp.com/send?phone=51967311785&text=Hola%2C%20quisiera%20contactarme%20contigo...' target='_blank' className='block button'>
          <FaWhatsapp className='text-2xl' />
         
          </a>

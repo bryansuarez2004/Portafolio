@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='flex gap-3 sm:col-start-3 '>
             <a href="https://www.linkedin.com/in/bryan-alejandro-suarez-fernandez-980135266/" target='blank' className=' w-[25px] cursor-pointer hover:text-blue-400'><FaLinkedin className='w-full h-full ' /></a>
             
-            <a href="https://walink.co/0057de" target='blank' className=' w-[25px] hover:text-lime-500'><FaWhatsapp className='w-full h-full cursor-pointer'/></a>
+            <a href="https://api.whatsapp.com/send?phone=51967311785&text=Hola%2C%20quisiera%20contactarme%20contigo..." target='blank' className=' w-[25px] hover:text-lime-500'><FaWhatsapp className='w-full h-full cursor-pointer'/></a>
             <a href="https://github.com/bryansuarez2004" target='blank' className=' w-[25px] hover:text-zinc-600'><FaGithub className='w-full h-full cursor-pointer'/></a>
         </div>
         <div className='sm:col-start-1 sm:row-start-1'>

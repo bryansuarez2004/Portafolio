@@ -7,7 +7,7 @@ const FormMain = () => {
     const onSubmit = handleSubmit((data)=>{
       
         
-       emailjs.send("service_mk7ymhf","template_4d5imvt",{
+       emailjs.send("service_rh3cbxc","template_4d5imvt",{
          name: data.nombre,
          message: data.mensaje,
          email: data.correo,
@@ -31,7 +31,7 @@ const FormMain = () => {
             <h2 className='text-center text-xl uppercase font-bold dark:text-white'>Enviame un correo:</h2>
             
             <label htmlFor="nombre" className='text-xl dark:text-white'>Nombre:</label>
-            <input type="text"  className='rounded-xl' id='nombre' {...register('nombre',{
+            <input type="text p-2"  className='rounded-xl p-2' id='nombre' {...register('nombre',{
               required:{
                 value:true,
                 message:'el nombre es requerido'
@@ -39,7 +39,7 @@ const FormMain = () => {
             })}/>
             {errors.nombre && <span className='text-red-600 dark:text-red-300'>{errors.nombre.message}</span> }
             <label htmlFor="correo"  className='text-xl dark:text-white' >Correo:</label>
-            <input type="text"  className='rounded-xl' id='correo'  {...register('correo',{
+            <input type="text"  className='rounded-xl p-2 ' id='correo'  {...register('correo',{
               required:{
                 value:true,
                 message:'el correo es requerido'
@@ -51,7 +51,7 @@ const FormMain = () => {
             })}/>
              {errors.correo && <span className='text-red-600 dark:text-red-300'>{errors.correo.message}</span> }
             <label htmlFor="mensaje"  className='text-xl dark:text-white'>Mensaje:</label>
-            <textarea  id="mensaje" cols="30" rows="10" className='resize-none rounded-xl' {...register('mensaje',{
+            <textarea  id="mensaje" cols="30" rows="10" className='resize-none p-2 rounded-xl' {...register('mensaje',{
               required:{
                 value:true,
                 message:'debe escribir un mensaje'

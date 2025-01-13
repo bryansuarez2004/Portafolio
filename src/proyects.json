@@ -1,0 +1,39 @@
+[
+    {
+        "title":"Music App",
+        "img":"/music.app.jpg",
+        "description":"Proyecto FullStack donde podrás escuchar la música que desees y tendrás la posibilidad de crearte una cuenta para darle like a canciones y crear una playlist para compartirla con tus amigos",
+        "linkProyec":"https://music-party-app.vercel.app"
+     },
+     {
+        "title":"Countries Api",
+        "img":"/CountrysApi.jpeg",
+        "description":"Una pagina para buscar paises y ver la informacion de cada pais",
+        "linkProyec":"https://countries-api-one-tawny.vercel.app/"
+     },
+     {
+        "title":"poke api",
+        "img":"/pokeapi.jpeg",
+        "description":"Este es un proyecto hecho con react, usando el manejo de estado global, rutas e incluyendo paginacion",
+        "linkProyec":"https://entregable5-rho.vercel.app/"
+     }
+     ,
+     {
+        "title":"rick and morty api",
+        "img":"/rickAndMortyApi.jpeg",
+        "description":"En este proyecto implementamos un buscador y consumimos una api con axios ",
+        "linkProyec":"https://rick-and-morty-api-delta-cyan.vercel.app/"
+     },
+     {
+        "title":"Weather app",
+        "img":"/weatherApp.jpeg",
+        "description":"Una app del clima que te indica la temperatura de tu ubicación actual",
+        "linkProyec":"https://entregable2-1.vercel.app/"
+     },
+     {
+        "title":"E-commerceJS",
+        "img":"/Ecommercejs.jpeg",
+        "description":"Proyecto Javascript vanilla que simula la compra y venta de un e-commerce tradicional",
+        "linkProyec":"https://music-party-app.vercel.app"
+     }
+  ]

@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import Technologies from './components/Technologies'
 import FormMain from './components/FormMain'
 import Slider from './components/Slider'
+import SliderProyects from './components/SliderProyects'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
     <Navbar setFormOpen={setFormOpen}/>
     <Header setFormOpen={setFormOpen} />
     <AboutMe />
-    <Slider/>
+    <SliderProyects />
+   
     <Contac setFormOpen={setFormOpen}/>
     <Technologies />
     <Abilities />
