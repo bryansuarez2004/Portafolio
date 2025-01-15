@@ -22,8 +22,14 @@ function App() {
     <>
     <Navbar setFormOpen={setFormOpen}/>
     <Header setFormOpen={setFormOpen} />
+    <div className='relative top-[-130px] sm:top-[-200px]'>
+
     <AboutMe />
+    </div>
+    
+
     <SliderProyects />
+    
    
     <Contac setFormOpen={setFormOpen}/>
     <Technologies />

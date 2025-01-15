@@ -12,7 +12,7 @@ const Title = ({setFormOpen}) => {
       <div className=' text-6xl font-bold font-sans text-center text-black dark:text-white  sm:text-7xl'>FULLSTACK DEVELOPER</div>
       <h2 data-text={'BRYANSUAREZ'} className='nombre '>BRYANSUAREZ</h2>
       <div className='flex gap-5'>
-        <a href="/CurriculumVitae.pdf" download={'BryanSuarezCurriculum.pdf'} target='_blank'>
+        <a href="/Curriculum.pdf" download={'BryanSuarezCurriculum.pdf'} target='_blank'>
         <Button texto={'descargar cv'} />
         </a>
         

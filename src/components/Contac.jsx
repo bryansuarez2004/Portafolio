@@ -11,8 +11,11 @@ const Contac = ({setFormOpen}) => {
   }
 
   return (
-    <section id='contacts' className='flex flex-col items-center gap-4 py-5 bg-emerald-200 dark:bg-purple-950'>
-         <h2 className='text-3xl font-bold dark:text-white uppercase'>Contactame</h2>
+    <section className='relative flex flex-col items-center gap-4 py-20 bg-emerald-200 dark:bg-purple-950'>
+         <div  id='contacts' className='absolute top-[-100px]'>
+
+         </div>
+         <h2 className='text-4xl font-bold dark:text-white uppercase'>Contactame</h2>
          <p className='dark:text-white'>Estoy disponible a travéz de múltiples canales</p>
          <div className='flex flex-wrap justify-center gap-5 p-5 *:p-4 *:rounded-lg  *:flex *:items-center *:flex-col *:border-2 *:border-black *:w-[130px] *:h-[130px] *:gap-2 *:justify-center *:dark:border-white *:dark:text-white *:transition *:duration-500'>
          <button onClick={handleForm} className='button '>

@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import proyects from "../proyects.json";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { FaArrowLeft, FaArrowRight, FaGithub } from "react-icons/fa6";
 
 const SliderProyects = () => {
   const [emblaRef,emblaApi] = useEmblaCarousel();
@@ -15,8 +15,12 @@ const SliderProyects = () => {
   }, [emblaApi]);
   return (
     <>
-    <div className="embla  mx-auto max-w-[90%]" ref={emblaRef}>
-      <div className="embla__container min-h-[500px] md:min-h-[400px] ">
+
+
+    <div className="relative top-[-50px]">
+    <div className="embla  mx-auto max-w-[90%] " ref={emblaRef}>
+      <div className="embla__container  min-h-[650px] md:min-h-[400px] ">
+        
         {proyects.map((proyect) => {
             return (
                 <div key={proyect.title} className="embla__slide relative  p-10 flex justify-center items-center  ">
@@ -44,16 +48,22 @@ const SliderProyects = () => {
                     backgroundSize: "cover",
                   }}
                   className="  aspect-[3/2]  w-[100%] mx-auto md:w-[350px]  "
-                ></div>
+                  ></div>
                 
-                <div className="flex md:gap-3 flex-col ">
+                <div className="flex grow md:gap-3 flex-col ">
 
                 <div className="font-bold text-2xl md:text-4xl">{proyect.title}</div>
                 <div className=" ">{proyect.description}</div>
+                <div className="flex gap-5 grow items-center sm:items-end justify-end">
+                  <a type="submit"
+                  target="_blank" href={`${proyect.repository}`}>
+
+                <FaGithub className="text-4xl hover:scale-[1.2]  transition-all duration-300 cursor-pointer" />
+                  </a>
                 <a href={`${proyect.linkProyec}`}
                   type="submit"
                   target="_blank"
-                  className="flex md:absolute md:right-9 md:bottom-5 mt-2   justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"
+                  className="flex  mt-2  justify-center gap-2 items-center  shadow-xl text-sm bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-2 py-1 overflow-hidden border-2 rounded-full group"
                   >
                   VER PROYECTO
                   <svg
@@ -67,6 +77,7 @@ const SliderProyects = () => {
                       ></path>
                   </svg>
                 </a>
+                    </div>
                       </div>
                       
               </div>
@@ -79,7 +90,8 @@ const SliderProyects = () => {
        
       </div>
     </div>
-    <div className=" p-2 flex justify-center mb-5">
+    <div id="proyectos" className=" absolute top-[-20px] sm:top-[-100px] w-[50px] h-2"> </div>
+    <div className=" p-2 flex mt-5 justify-center mb-5">
         <div className="flex gap-4">
 
     <button onClick={scrollPrev} className="p-5 py-1 rounded-xl dark:bg-purple-300 bg-green-300 hover:bg-slate-100 transition-all duration-200"> 
@@ -90,6 +102,7 @@ const SliderProyects = () => {
     </button>
         </div>
     </div>
+                    </div>
         </>
   );
 };

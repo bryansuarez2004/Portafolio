@@ -3,37 +3,43 @@
         "title":"Music App",
         "img":"/music.app.jpg",
         "description":"Proyecto FullStack donde podrás escuchar la música que desees y tendrás la posibilidad de crearte una cuenta para darle like a canciones y crear una playlist para compartirla con tus amigos",
-        "linkProyec":"https://music-party-app.vercel.app"
+        "linkProyec":"https://music-party-app.vercel.app",
+        "repository" :"https://github.com/bryansuarez2004/API_MUSIC_FRONTEND"
      },
      {
         "title":"Countries Api",
         "img":"/CountrysApi.jpeg",
         "description":"Una pagina para buscar paises y ver la informacion de cada pais",
-        "linkProyec":"https://countries-api-one-tawny.vercel.app/"
+        "linkProyec":"https://countries-api-one-tawny.vercel.app/",
+        "repository" :"https://github.com/bryansuarez2004/Countries-Api"
      },
      {
         "title":"poke api",
         "img":"/pokeapi.jpeg",
         "description":"Este es un proyecto hecho con react, usando el manejo de estado global, rutas e incluyendo paginacion",
-        "linkProyec":"https://entregable5-rho.vercel.app/"
+        "linkProyec":"https://entregable5-rho.vercel.app/",
+        "repository" :"https://github.com/bryansuarez2004/Pokedex-App"
      }
      ,
      {
         "title":"rick and morty api",
         "img":"/rickAndMortyApi.jpeg",
         "description":"En este proyecto implementamos un buscador y consumimos una api con axios ",
-        "linkProyec":"https://rick-and-morty-api-delta-cyan.vercel.app/"
+        "linkProyec":"https://rick-and-morty-api-delta-cyan.vercel.app/",
+        "repository" :"https://github.com/bryansuarez2004/Rick-And-Morty-API"
      },
      {
         "title":"Weather app",
         "img":"/weatherApp.jpeg",
         "description":"Una app del clima que te indica la temperatura de tu ubicación actual",
-        "linkProyec":"https://entregable2-1.vercel.app/"
+        "linkProyec":"https://entregable2-1.vercel.app/",
+        "repository" :"https://github.com/bryansuarez2004/Weather-App"
      },
      {
         "title":"E-commerceJS",
         "img":"/Ecommercejs.jpeg",
         "description":"Proyecto Javascript vanilla que simula la compra y venta de un e-commerce tradicional",
-        "linkProyec":"https://music-party-app.vercel.app"
+        "linkProyec":"https://music-party-app.vercel.app",
+        "repository" :"https://github.com/bryansuarez2004/E-commerce-JSvanilla"
      }
   ]
